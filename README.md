@@ -1,3 +1,5 @@
+## Purpose
+
 The feet_helper tool is relatively simple and just over 200 lines (including comments).  Two of the functions are straight from the fleetctl tool, but the rest perform some sort of output manipulation or iteration over data to achieve the desired output.
 
 ## Requirements  
