@@ -1,6 +1,9 @@
 ## Purpose
 
-The feet_helper tool is relatively simple and just over 200 lines (including comments).  Two of the functions are straight from the fleetctl tool, but the rest perform some sort of output manipulation or iteration over data to achieve the desired output.
+The feet_helper script is a relatively simple wrapper for the Kolide Fleet fleetctl tool.  Two of the functions are straight from the fleetctl tool, but the rest perform various output manipulation or iteration over data to achieve the desired output.
+
+This tool accompanies the blogpost found here:  http://securitysynapse.blogspot.com/2019/06/osquery-part-vi-controlling-fleetctl.html
+
 
 ## Requirements  
 
