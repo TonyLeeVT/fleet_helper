@@ -97,7 +97,7 @@ function exportpackquery () {
         queries=()
         while read -r line; do
                 queries+=( "$line" )
-	done < <( fleetctl get p "${arg}" | grep name | tail -n +2 | cut -f 2 -d ':' | sed 's/^.//' )
+	done < <( fleetctl get p "${arg}" | grep name: | tail -n +2 | cut -f 2 -d ':' | sed 's/^.//' )
 
 
         for i in "${queries[@]}"; do
